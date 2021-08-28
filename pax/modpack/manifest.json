@@ -1,0 +1,62 @@
+{
+  "minecraft": {
+    "version": "1.16.5",
+    "modLoaders": [
+      {
+        "id": "forge-36.2.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "0.0.1",
+  "author": "TeksturePako",
+  "name": "Underdog 2",
+  "files": [
+    {
+      "projectID": 252818,
+      "fileID": 3414224,
+      "required": true,
+      "__meta": {
+        "name": "Dynamic Trees",
+        "explicit": false,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 300297,
+      "fileID": 3440357,
+      "required": true,
+      "__meta": {
+        "name": "Project: Vibrant Journeys",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 363820,
+      "fileID": 3414123,
+      "required": true,
+      "__meta": {
+        "name": "TerraForged",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 488347,
+      "fileID": 3331778,
+      "required": true,
+      "__meta": {
+        "name": "Dynamic Trees - TerraForged",
+        "explicit": true,
+        "dependencies": [
+          363820,
+          252818
+        ]
+      }
+    }
+  ]
+}
