@@ -5,6 +5,8 @@ The progression part will be inspired by human evolution, going from the stone a
 
 There will a big focus on removing all the nether and end stuff, which is considered unrealistic. Redstone will be now replaced with copper wire.
 
+https://www.curseforge.com/minecraft/modpacks/underdog2
+
 # Development
 For developing Underdog, it's necesseary for you to know how to use [Git] and [Pax].
 
