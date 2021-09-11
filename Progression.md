@@ -2,7 +2,9 @@ This file is basically a guide for how to develop the progression.
 Note that things might change, and criticism is highly welcomed!
 
 ## Philosophy of GameStages:
-GameStages will be like in SevTech, so the main stages will be stone_age, bronze_age, iron_age...etc Development will start with adding items to the stone_age stage first, then we can start adding items to the next stage.  
+GameStages will be like in SevTech, so the main stages will be _stone_age_, _bronze_age_, _iron_age_...etc Development will start with adding items to the _stone_age_ stage first, then we can start adding items to the next stage.  
+
+GameStages will be unlocked using quests or achievements.  
 ...More philosophy in the future...
 
 ## Players' progression:
@@ -15,12 +17,14 @@ Making fire, using the fire starter:
 
 ### Woodworking:   
 The woodworking process will be an in-game process, where the player will obtain different kinds of wood for different purposes.  
-You have two options: `right-click` or `left-click`. `Right-click` will debark and `left-click` chop. Meaning, if you do chop first, you will get lower quality wood. And, if you debark and then chop, you will get the average-quality wood.  
+You have two options: `right-click` or `left-click`. Right-click will debark and left-click chop. Meaning, if you do chop first, you will get lower quality wood. And, if you debark and then chop, you will get the average-quality wood.  
 
 ```markdown
 Low-quality wood = firewood - Used for combustion.
 Average-quality wood = lumber - Used for making fances, gates, rustical doors.
 Hight-quality wood = plank - Used for doors, furniture, planks.
 ```
+
+3. Farming. Hoe should be gated so that players can't start farming right away. 
 
 [Unlit Campfire]: https://www.curseforge.com/minecraft/mc-mods/unlit-campfire
