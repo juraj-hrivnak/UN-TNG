@@ -1,8 +1,8 @@
-
 # Development
+For developing Underdog, it's necesseary for you to know how to use [Git] and [Pax].
 
 ## Syncing mods
-To sync the mods with the ones that are writen in the manifest.json, run `sync_mods.bat`.
+To sync the mods with the ones that are writen in the manifest.json, run `syncmods.bat`.
 
 ## Syncing overides
 Everyting that is not writen in the manifest.json is an overide. (For example: configs, scrips, resources)
@@ -28,5 +28,6 @@ $ cd ./minecraft/pax
 ```
 
 <!-- Links: -->
+[Git]: https://git-scm.com/
 [Pax]: https://github.com/froehlichA/pax
 [ModPackDownloader]: https://github.com/Nincraft/ModPackDownloader
