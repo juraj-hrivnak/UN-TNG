@@ -1,18 +1,26 @@
 This file is basically a guide for developing the progression. 
 
-### Philosophy of GameStages: 
-GameStages will be like in SevTech, so the main will be stone_age, bronze_age, iron_age...etc Development will start with adding items to the stone_age stage first, then we can start adding items to the next stage.
+## Philosophy of GameStages: 
+GameStages will be like in SevTech, so the main stages will be stone_age, bronze_age, iron_age...etc Development will start with adding items to the stone_age stage first, then we can start adding items to the next stage.
 
-### Players' progression
+## Players' progression:
 1. Gathering stones, rocks, flints and sticks from the ground. The stones will be unified to only one type of stone, though there are many kinds of stone. Also, note that the stone blocks will don't drop these small stones.
 
 2. Making first tools/weapons in the 2x2 crafting grid.  
-Nights will be cold, you should make your self a campfire! Campfire also won't last forever ([Unlit Campfire] mod.)
-Making fire using the fire starter:   
-![](https://i.imgur.com/HoCgMuC.png)is 
+Nights will be cold, you should make yourself a campfire! Campfire also won't last forever ([Unlit Campfire] mod.)
+Making fire, using the fire starter:   
+![](https://i.imgur.com/HoCgMuC.png)
 
-3. Woodworking:   
-The wood working process will be like this:  
-Stripping wood from bark, then depending on the resistance of the wood, chopping the wood to a small pieces (firewood, lumber). This will be in-game process.
+### Woodworking:   
+The woodworking process will be an in-game process, where the player will obtain different kinds of wood for different purposes.  
+You have two options: `right-click` or `left-click`. `Left-click` will debark and `right-click` chop. Meaning, if you do chop first, you will get lower quality wood. And, if you debark and then chop, you will get the mid quality wood.  
+
+```
+Low quality wood = firewood  
+Mid quality wood = lumber
+Hight quality wood = plank 
+
+4x plank = wooden planks block
+```
 
 [Unlit Campfire]: https://www.curseforge.com/minecraft/mc-mods/unlit-campfire
