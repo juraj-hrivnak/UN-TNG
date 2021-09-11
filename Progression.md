@@ -15,16 +15,17 @@ Nights will be cold, you should make yourself a campfire! Campfire also won't la
 Making fire, using the fire starter:   
 ![](https://i.imgur.com/HoCgMuC.png)
 
-### Woodworking:   
+### Woodworking & [I Like Wood] mod:   
 The woodworking process will be an in-game process, where the player will obtain different kinds of wood for different purposes.  
 You have two options: `right-click` or `left-click`. Right-click will debark and left-click chop. Meaning, if you do chop first, you will get lower quality wood. And, if you debark and then chop, you will get the average-quality wood.  
 
 ```markdown
 Low-quality wood = firewood - Used for combustion.
 Average-quality wood = lumber - Used for making fances, gates, rustical doors.
-Hight-quality wood = plank - Used for doors, furniture, planks.
+Hight-quality wood = plank - Used for doors, furniture, planks. This will require better axe.
 ```
 
 3. Farming. Hoe should be gated so that players can't start farming right away. 
 
 [Unlit Campfire]: https://www.curseforge.com/minecraft/mc-mods/unlit-campfire
+[I Like Wood]: https://www.curseforge.com/minecraft/mc-mods/i-like-wood
