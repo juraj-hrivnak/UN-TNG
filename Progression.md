@@ -14,7 +14,7 @@ Making fire, using the fire starter:
 
 ### Woodworking:   
 The woodworking process will be an in-game process, where the player will obtain different kinds of wood for different purposes.  
-You have two options: `right-click` or `left-click`. `right-click` will debark and `left-click` chop. Meaning, if you do chop first, you will get lower quality wood. And, if you debark and then chop, you will get the average-quality wood.  
+You have two options: `right-click` or `left-click`. `Right-click` will debark and `left-click` chop. Meaning, if you do chop first, you will get lower quality wood. And, if you debark and then chop, you will get the average-quality wood.  
 
 ```markdown
 Low-quality wood = firewood - Used for combustion.
