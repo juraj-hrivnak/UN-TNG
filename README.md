@@ -14,11 +14,11 @@ There will a big focus on removing all the nether and end stuff, which is consid
 For developing Underdog, it's necesseary for you to know [Git] and [Pax].
 
 ## Syncing mods
-To sync the mods with the ones that are writen in the manifest.json, run `syncmods.bat`.
+To sync the mods with the ones that are writen in the manifest.json, run `syncmods.bat` or `syncmods.sh` depending on you operating sistem.
 
 ## Syncing overides
 Everyting that is not writen in the manifest.json is an overide. (For example: configs, scrips, resources)
-To copy the overides you changed to the pax/modpack/overides folder, run `sync_overrides.bat`.
+To copy the overides you changed to the pax/modpack/overides folder, run `sync_overrides.bat` or `sync_overrides.sh` depending on you operating sistem.
 
 
 
