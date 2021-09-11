@@ -16,6 +16,28 @@
   "name": "Underdog 2",
   "files": [
     {
+      "projectID": 243121,
+      "fileID": 3394265,
+      "required": true,
+      "__meta": {
+        "name": "Quark",
+        "explicit": true,
+        "dependencies": [
+          250363
+        ]
+      }
+    },
+    {
+      "projectID": 250363,
+      "fileID": 3326041,
+      "required": true,
+      "__meta": {
+        "name": "AutoRegLib",
+        "explicit": false,
+        "dependencies": []
+      }
+    },
+    {
       "projectID": 252818,
       "fileID": 3414224,
       "required": true,
@@ -23,6 +45,18 @@
         "name": "Dynamic Trees",
         "explicit": false,
         "dependencies": []
+      }
+    },
+    {
+      "projectID": 298582,
+      "fileID": 3455630,
+      "required": true,
+      "__meta": {
+        "name": "Cave Generator",
+        "explicit": true,
+        "dependencies": [
+          513391
+        ]
       }
     },
     {
@@ -56,6 +90,16 @@
           363820,
           252818
         ]
+      }
+    },
+    {
+      "projectID": 513391,
+      "fileID": 3454698,
+      "required": true,
+      "__meta": {
+        "name": "CatLib",
+        "explicit": false,
+        "dependencies": []
       }
     }
   ]
