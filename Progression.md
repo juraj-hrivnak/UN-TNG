@@ -1,4 +1,5 @@
-This file is basically a guide for developing the progression. 
+This file is basically a guide for how to develop the progression.  
+Note that things might change, and criticism is highly welcomed.
 
 ## Philosophy of GameStages: 
 GameStages will be like in SevTech, so the main stages will be stone_age, bronze_age, iron_age...etc Development will start with adding items to the stone_age stage first, then we can start adding items to the next stage.
@@ -13,12 +14,12 @@ Making fire, using the fire starter:
 
 ### Woodworking:   
 The woodworking process will be an in-game process, where the player will obtain different kinds of wood for different purposes.  
-You have two options: `right-click` or `left-click`. `Left-click` will debark and `right-click` chop. Meaning, if you do chop first, you will get lower quality wood. And, if you debark and then chop, you will get the mid quality wood.  
+You have two options: `right-click` or `left-click`. `Left-click` will debark and `right-click` chop. Meaning, if you do chop first, you will get lower quality wood. And, if you debark and then chop, you will get the mid-quality wood.  
 
 ```
-Low quality wood = firewood  
-Mid quality wood = lumber
-Hight quality wood = plank 
+Low-quality wood = firewood  
+Mid-quality wood = lumber
+Hight-quality wood = plank 
 
 4x plank = wooden planks block
 ```
