@@ -21,8 +21,8 @@ You have two options: `right-click` or `left-click`. Right-click will debark and
 
 ```markdown
 Low-quality wood = firewood - Used for combustion.
-Average-quality wood = lumber - Used for making fances, gates, rustical doors.
-Hight-quality wood = plank - Used for doors, furniture, planks. This will require better axe.
+Average-quality wood = lumber - Used for making fences, gates, rustical doors.
+High-quality wood = plank - Used for doors, furniture, planks. This will require a better axe.
 ```
 
 3. Farming. Hoe should be gated so that players can't start farming right away. 
