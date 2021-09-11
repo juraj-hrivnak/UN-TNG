@@ -1,0 +1,69 @@
+{
+  # To use this feature, toggle enableOtherGenerators and
+  # list out the registry names of any world carvers you wish
+  # to manually disable.
+  # For example, `cave` or `minecraft:underwater_canyon`.
+  # For a list of all carvers, run `/cave debug carvers`.
+  disabledCarvers: []
+  # A list of all feature types OR configured features being
+  # globally disabled by the mod.
+  # For example, `ore` or `minecraft:ore_coal`.
+  # For a list of all features, run `/cave debug features`.
+  disabledFeatures: [
+    spring_feature
+    lake
+    ore_dirt
+    ore_gravel
+    ore_andesite
+    ore_diorite
+    ore_granite
+  ]
+  # A list of all structure features being globally disabled
+  # by the mod.
+  # For example, `minecraft:mineshaft`.
+  # For a list of all features, run `/cave debug structures`.
+  disabledStructures: []
+  # Whether to enable the fallback generator compatibility layer
+  # for support with mods that use custom chunk generators.
+  fallbackCarvers: false
+  # Whether to enable the fallback feature compatibility layer
+  # for support with mods that use custom chunk generators.
+  fallbackFeatures: false
+  # Whether this mod will attempt to run simultaneously
+  # with one other cave generation mod, such as Worley's
+  # Caves or Yung's Better Caves.
+  enableOtherGenerators: false
+  # When this field is set to true, PresetTester is allowed to
+  # crash the game when more serious errors are detected. Users
+  # who are serious about creating cleaner and more efficient
+  # presets should consider enabling this field to make sure that
+  # nothing slips by.
+  strictPresets: false
+  # When this field is set to true, PresetTester will skip over
+  # any invalid presets and simply not load them. Make sure to
+  # check your log to determine if any presets erred.
+  ignoreInvalidPresets: false
+  # Whether to automatically format your preset files. They will
+  # still be reformatted if values are updated.
+  autoFormat: true
+  # Whether to automatically generate preset files inside of
+  # cavegenerator/generated. This will help you see how your
+  # variables are getting expanded every time you reload your
+  # presets.
+  autoGenerate: false
+  # Whether to automatically update import files, as much
+  # as possible. Note that compatibility updates will still
+  # occur.
+  updateImports: true
+  # The search range for tunnel and ravine features.
+  # Range: 1 ~ 20
+  mapRange: 8
+  # The range in chunks to read biomes for features that use
+  # distance-based biome testing.
+  # Range: 1 ~ 20
+  biomeRange: 2
+  # The seed to for the fallback generator when this feature
+  # is enabled.
+  # Range: -9223372036854775808 ~ 9223372036854775807
+  fallbackCarverSeed: 24
+}

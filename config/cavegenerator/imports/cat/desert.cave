@@ -1,0 +1,103 @@
+{
+  imports: cat/common.cave::half_rel()
+  burrows: [
+    # Massive, winding halls with vanilla
+    # tunnels branching off, forming cave
+    # systems.
+    {
+      radius: 2.5
+      target: 0.065
+      branches: {
+        count: 7
+        chance: 0.4
+        systemChance: 0
+      }
+      offset: {
+        range: $half_rel(20, 40)
+      }
+    }
+    {
+      replaceableBlocks: [ "terracotta", "light_gray_terracotta", "cyan_terracotta", "clay", "stone", "sandstone", "sand" ]
+      radius: 3.5
+      target: 0.075
+      height: $half_rel(25, 75)
+      offset: {
+        range: $half_rel(30, 70)
+        frequency: 0.006
+        seed: 10
+      }
+    }
+  ]
+  caverns: [
+    {
+      generators: {
+        threshold: -0.7
+        stretch: 0.25
+        warp: BasicGrid
+        warpFrequency: 0.035
+      }
+      height: $half_rel(5, 50)
+    }
+  ]
+  clusters: [
+    {
+      # states: [ "glass:4", "stained_glass:7", "stained_glass:8", "stained_glass:12" ]
+      states: [ "terracotta", "light_gray_terracotta", "cyan_terracotta", "clay" ]
+      chance: 0.06
+      chance: 0.06
+      radius: [ 30, 40 ]
+      radiusY: [ 5, 7 ]
+      centerHeight: $half_rel(15, 45)
+    }
+  ]
+  stalactites: {
+    type: speleothem
+    state: stone
+    matchers: stone
+    length: [ 4, 5 ]
+    space: 4
+    chance: 0.1
+  }
+  # Copy this value into `caverns` to
+  # enable some extra lava pockets
+  # the surface.
+  # Note: ideally put this in a later
+  # preset altogether.
+  optionalLavaAquifers: {
+    height: $half_rel(5, 50)
+    generators: {
+      threshold: [ -1, -0.6 ]
+      frequency: 0.01
+    }
+    ceiling: {
+      range: [ -4, -8 ]
+    }
+    # This floor has the exact same shape
+    # of the upper burrows, shifted up.
+    floor: {
+      range: $half_rel(25, 65)
+      frequency: 0.006
+      seed: 10
+    }
+    caveBlocks: {
+      states: lava
+      height: [ 0, 255 ]
+    }
+    shell: {
+      radius: 2
+      decorators: [
+        {
+          states: magma_block
+          height: [ 0, 255 ]
+          integrity: 0.5
+        }
+        {
+          states: stone
+          height: [ 0, 255 ]
+          matchers: cave_air
+          integrity: 1
+        }
+      ]
+    }
+  }
+}
