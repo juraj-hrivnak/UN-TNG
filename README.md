@@ -8,7 +8,7 @@ There will a big focus on removing all the nether and end stuff, which is consid
 https://www.curseforge.com/minecraft/modpacks/underdog2
 
 # Development
-For developing Underdog, it's necesseary for you to know how to use [Git] and [Pax].
+For developing Underdog, it's necesseary for you to know [Git] and [Pax].
 
 ## Syncing mods
 To sync the mods with the ones that are writen in the manifest.json, run `syncmods.bat`.
