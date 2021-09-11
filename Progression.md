@@ -2,7 +2,8 @@ This file is basically a guide for how to develop the progression.
 Note that things might change, and criticism is highly welcomed!
 
 ## Philosophy of GameStages:
-GameStages will be like in SevTech, so the main stages will be stone_age, bronze_age, iron_age...etc Development will start with adding items to the stone_age stage first, then we can start adding items to the next stage.
+GameStages will be like in SevTech, so the main stages will be stone_age, bronze_age, iron_age...etc Development will start with adding items to the stone_age stage first, then we can start adding items to the next stage.  
+...More philosophy in the future...
 
 ## Players' progression:
 1. Gathering stones, rocks, flints and sticks from the ground. The stones will be unified to only one type of stone, though there are many kinds of stone. Also, note that the stone blocks will don't drop these small stones.
