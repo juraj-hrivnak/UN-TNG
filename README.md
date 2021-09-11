@@ -11,7 +11,8 @@ There will a big focus on removing all the nether and end stuff, which is consid
 ***
 
 # Development
-For developing Underdog, it's necesseary for you to know [Git] and [Pax].
+For developing Underdog, it's necesseary for you to know [Git].  
+And for installing/removing/updating mods [Pax].
 
 ## Syncing mods
 To sync the mods with the ones that are writen in the manifest.json, run `syncmods.bat` or `syncmods.sh` depending on you operating sistem.
