@@ -2,7 +2,7 @@
 name: Visual Glitch/Bug repport
 about: Report a Visual Glitch/Bug
 title: ''
-labels: Visual bug
+labels: ''
 assignees: juraj-hrivnak
 
 ---
