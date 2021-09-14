@@ -121,6 +121,6 @@
 
 	#Tree Settings
 	[Settings."Tree Settings"]
-		enablePalmTrees = true
-		enableJuniperTrees = true
+		enablePalmTrees = false
+		enableJuniperTrees = false
 
