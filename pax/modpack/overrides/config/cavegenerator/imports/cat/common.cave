@@ -1,0 +1,108 @@
+{
+  # Represents the sea level for the
+  # default cat presets. Most other
+  # height values are relative to this.
+  SEA_LEVEL: 63
+  # The top of the regular world for
+  # these presets. Almost nothing will
+  # generate above this point.
+  TOP: 128
+  # The heighest coordinate where
+  # bedrock can be found undergound.
+  BEDROCK: 5
+  # A template for generating relative
+  # coordinates based on offsets from
+  # bedrock and top.
+  full_ost(): [ "$BEDROCK + @1", "$TOP - @2" ]
+  # A template that generates coordinates
+  # relative to $BEDROCK and $SEA_LEVEL
+  # when given 2 values in the range of
+  # 5 ~ 63;
+  # Values may exceed 63, but should never
+  # be less than 5.
+  full_rel(): [ "$full_rel_s(@1)", "$full_rel_s(@2)" ]
+  # A template for generating offset
+  # coordinates up to sea level.
+  half_ost(): [ "$BEDROCK + @1", "$SEA_LEVEL - @2" ]
+  # A template for generating offset
+  # coordinates from the bottom only.
+  bottom_ost(): [ "$BEDROCK + @1", "$BEDROCK + @2" ]
+  # A template that generates coordinates
+  # relative to $BEDROCK and $TOP 
+  # when given 2 values in the range of 
+  # 5 ~ 128;
+  # Values may exceed 128, but should never
+  # be less than 5.
+  half_rel(): [ "$half_rel_s(@1)", "$half_rel_s(@2)" ]
+  # A list of all biomes that have been
+  # decorated by the presets and thus
+  # which biomes should be blacklisted
+  # by generic features.
+  DECORATED_BIOMES: {
+    types: [ "ICY", "DESERT", "MESA", "JUNGLE", "OCEAN", "MUSHROOM" ]
+    names: [ "dark_forest", "dark_forest_hills" ]
+  }
+  # All of the biomes where dense / lush 
+  # cave features should spawn.
+  DENSE_CAVE_BIOMES: {
+    types: JUNGLE
+    names: [ "dark_forest", "dark_forest_hills" ]
+  }
+  # A list of all the biomes that upper
+  # caverns should spawn in. These 
+  # exclude snowy mountains and hills
+  # because those biomes have their
+  # upper caverns with unique decorations.
+  MOUNTAIN_CAVE_BIOMES: {
+    names: [
+      wooded_hills
+      birch_forest_hills
+      tall_birch_hills
+      dark_forest_hills
+      jungle_hills
+      modified_jungle
+      modified_jungle_edge
+      bamboo_jungle_hills
+      taiga_hills
+      taiga_mountains
+      giant_tree_taiga_hills
+      giant_spruce_taiga_hills
+      swamp_hills
+      savanna_plateau
+      shattered_savanna
+      shattered_savanna_plateau
+      desert_hills
+      mountains
+      wooded_mountains
+      gravelly_mountains
+      modified_gravelly_mountains
+      badlands_plateau
+      modified_badlands_plateau
+      wooded_badlands_plateau
+      modified_wooded_badlands_plateau
+    ]
+  }
+  variables: {
+    # Generates a y-coordinate relative
+    # to sea level and bedrock when given
+    # a vanilla equivalent.
+    # Parameters:
+    #  @1 -> vanilla y-coordinate
+    half_rel_s(): $adjust_val(5, 63, $BEDROCK, $SEA_LEVEL, @1)
+    # Generates a y-coordinate relative
+    # to bedrock and $TOP when given a
+    # vanilla equivalent.
+    # Parameters:
+    #  @1 -> vanilla y-coordinate
+    full_rel_s(): $adjust_val(5, 128, $BEDROCK, $TOP, @1)
+    # Generates a new value inside of a
+    # new range when given an original.
+    # Parameters:
+    #  @1 -> oldMin
+    #  @2 -> oldMax
+    #  @3 -> newMin
+    #  @4 -> newMax
+    #  @5 -> value
+    adjust_val(): (@5 - @1) / (@2 - @1) * (@4 - @3) + @3
+  }
+}
