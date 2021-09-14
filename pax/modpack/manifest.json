@@ -16,6 +16,26 @@
   "name": "Underdog 2",
   "files": [
     {
+      "projectID": 238222,
+      "fileID": 3438494,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 238747,
+      "fileID": 3038982,
+      "required": true,
+      "__meta": {
+        "name": "Mod Name Tooltip",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
       "projectID": 243121,
       "fileID": 3394265,
       "required": true,
@@ -38,12 +58,32 @@
       }
     },
     {
+      "projectID": 250603,
+      "fileID": 3415529,
+      "required": true,
+      "__meta": {
+        "name": "World Stripper",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
       "projectID": 252818,
       "fileID": 3414224,
       "required": true,
       "__meta": {
         "name": "Dynamic Trees",
         "explicit": false,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 287538,
+      "fileID": 3366129,
+      "required": true,
+      "__meta": {
+        "name": "Ore Stone Variants",
+        "explicit": true,
         "dependencies": []
       }
     },
