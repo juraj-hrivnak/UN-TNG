@@ -2,7 +2,7 @@
 name: Bug report
 about: Report Mod Interaction/ Recipe Bug
 title: ''
-labels: bug
+labels: bug, unconfirmed
 assignees: ''
 
 ---
