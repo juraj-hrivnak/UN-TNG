@@ -1,6 +1,0 @@
-{
-  general: {
-    # Whether to enable this library's provided commands as regular commands.
-    enableGlobalLibCommands: false
-  }
-}
