@@ -1,12 +1,4 @@
-# Underdog2
-is a Minecraft modpack with a goal to make Minecraft realistic in all ways possible. Now including evolution (aka. progression), geology and survival.
-
-The progression part will be inspired by human evolution, going from the stone age to the modern age. Mods will be gated using `Gamestages`, and the mods order will be following: `Yanny's Stone Age`, `Charcoal Pit`, `Create` / `Immersive Engineering`. Read more about the progression [here!](Progression.md)
-
-There will a big focus on removing all the nether and end stuff, which is considered unrealistic. Redstone will be now replaced with copper wire.
-
-### Links:
-- [CurseForge]
+# Underdog: The Next Generation (in dev)
 
 ***
 
